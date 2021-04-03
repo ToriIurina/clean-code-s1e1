@@ -24,6 +24,7 @@ body {
   }
 
 }
+
 .main {
   display: block;
   width: 500px;
@@ -41,10 +42,12 @@ body {
   margin: 0;
   padding: 0px;
 }
-.list__item, .title {
+.list__item,
+.title {
   list-style: none;
 }
-.form, .btn {
+.form,
+.btn {
   outline: none;
 }
 .btn {
