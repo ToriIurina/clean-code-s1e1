@@ -38,14 +38,14 @@ body {
   display: flex;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list__item, .title {
   list-style: none;
 }
 .form, .btn {
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -143,7 +143,7 @@ body {
 
 /* Edit Task */
 .list .list__item .form {
-  display:none;
+  display: none;
 }
 
 .list .list__item.edit-mode .form {
@@ -152,5 +152,5 @@ body {
 }
 
 .list .list__item.edit-mode .label-form {
-  display:none;
+  display: none;
 }
