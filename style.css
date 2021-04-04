@@ -126,15 +126,15 @@ body {
 .list__item > .form {
   width: 226px;
 }
-.list__item > .btn.delete:hover {
+.list__item > .btn.delete-btn:hover {
   color: #cf2323;
 }
-.btn.delete .delete__img {
+.btn.delete-btn .delete-btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.btn.delete .delete__img:hover {
+.btn.delete-btn .delete-btn__img:hover {
   transform: rotateZ(0);
 }
 
